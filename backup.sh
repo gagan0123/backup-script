@@ -18,7 +18,7 @@ REMOTE_GIT_PATH=""
 EXCLUDE_ENABLED=1
 
 #Listing folders to exclude
-EXCLUDE_FOLDERS=( 'wp-content/cache' );
+EXCLUDE_FOLDERS=( 'wp-content/cache' 'wp-content/uploads/backupbuddy_backups' 'wp-content/uploads/pb_backupbuddy' );
 
 #Setting up Remote path to be backed up
 REMOTE_PATH="/var/www/$SITE_NAME"
